@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "849555309313",
+    "project_id": "check-parking-84775",
+    "storage_bucket": "check-parking-84775.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849555309313:android:a6e0a36071e2b954a71100",
+        "android_client_info": {
+          "package_name": "com.example.check_parking_v10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849555309313-c63e1puq08opr66l1ahsccvmt8u5ojn5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC45FNODn_u-FELVeQ9QU2AONQ6QcVkmVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849555309313-c63e1puq08opr66l1ahsccvmt8u5ojn5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

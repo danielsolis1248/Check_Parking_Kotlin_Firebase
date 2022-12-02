@@ -6,8 +6,7 @@ data class Administrador(
     var apellido:String?,
     var email:String?,
     var telefono:Int?,
-    var nameUsuario: String? = null,
-    var password:String? = null
+
 
 ) {
     override fun equals(other: Any?): Boolean {
@@ -21,8 +20,6 @@ data class Administrador(
         if (apellido != other.apellido) return false
         if (email != other.email) return false
         if (telefono != other.telefono) return false
-        if (nameUsuario != other.nameUsuario) return false
-        if (password != other.password) return false
 
         return true
     }
@@ -33,8 +30,7 @@ data class Administrador(
         result = 31 * result + (apellido?.hashCode() ?: 0)
         result = 31 * result + (email?.hashCode() ?: 0)
         result = 31 * result + (telefono ?: 0)
-        result = 31 * result + (nameUsuario?.hashCode() ?: 0)
-        result = 31 * result + (password?.hashCode() ?: 0)
+
         return result
     }
 }
